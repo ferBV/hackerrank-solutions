@@ -3,7 +3,7 @@
 
 void update(int *a,int *b) {
     // Complete this function    
-	int x = *a;;
+	int x = *a; 
 	*a = *a + *b;
 	*b = abs((x-*b));
 }
